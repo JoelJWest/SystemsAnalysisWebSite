@@ -1,0 +1,303 @@
+<html>
+<head>
+    <title>Panther Professional Consulting</title>
+    <link rel="stylesheet" type="text/css" href="slick-1.3-2.15/slick/slick.css"/>
+    <style type="text/css">
+    body{
+        margin: 0px;
+        overflow-x: hidden;
+       
+    }
+    #wrapper{
+        background-image: url(Images/desk.jpg);
+        background-repeat: no-repeat;
+        background-position:center;
+        background-attachment: fixed;
+        background-size: cover;
+        opacity: 
+        
+        margin: 0px;
+        position: relative;
+        
+         
+    }
+    nav{
+        background-color: black;
+        height: 70px;
+        opacity: .7;
+        position: fixed;
+        width: 100%;
+        z-index: 99;
+    }
+        nav ul{
+            text-align: right;
+            padding-right: 20px;
+        }
+        nav li{
+            display: inline-block;
+            list-style-type: none;
+            padding-right: 20px;
+        }
+        nav li a{
+            text-decoration: none;
+            color:white;
+            line-height: 35px;
+            padding-top: 27px;
+            padding-bottom: 27px;
+            padding-left: 10px;
+            padding-right: 10px;
+          
+        }
+        nav li a#logIn{
+        
+            color:#E2901A;
+            font-weight:800;
+        }
+        nav li a:hover{
+            background-color: gray;
+        }
+    section#page1{
+        height: 100vh;
+    }
+        section#page1 h1{
+            
+            color:black;
+            font-size: 130px;
+            position: absolute;
+            margin-top: 180px;
+            padding-left: 55px;
+            opacity: .7;
+            display: inline-block;  
+            overflow: hidden;
+            white-space: nowrap;
+            font-family:serif;
+        }
+        section#page1 h2{
+            
+            color:white;
+            font-size: 30px;
+            margin-top: 500px;
+            padding-left:460px;
+            opacity: .7;
+            display: inline-block;  
+            overflow: hidden;
+            white-space: nowrap;
+            font-family: sans-serif;
+            
+        }
+    section#ourCompany{
+        height:100vh;
+        background-color: white;
+        opacity: 1;
+
+        
+    }
+        section#ourCompany #left{
+            width: 60%;
+            background-color: white;
+            display: inline-block;
+            height: 100%;
+            
+        }
+        section#ourCompany #right{
+            width:40%;
+            background-color: white;
+            display: inline-block;
+            float: right;
+            height: 100%
+        }
+        section#ourCompany h2{
+            padding-top:150px;
+            text-align: center;
+            padding-bottom: 0px;
+            font-size: 50px;
+            margin-bottom: 0px;
+            color:black;
+            font-family:sans-serif;
+        }
+        section#ourCompany p{
+            background: white;
+            padding-top: 20px;
+            padding-left: 120px;
+            margin-right: 20px;
+            margin-top: 0px;
+            font-size: 18px;
+            color:#4d4d4d;
+            line-height: 22px;
+            font-family:serif;
+            text-align: justify;
+            
+            width: 68%;
+        }
+        section#ourCompany a{
+            color:black;
+        }
+        section#ourCompany img{
+          width: 90%;
+          padding-left: 0%;
+          padding-top: 40%;
+           
+        }
+    section#ourTeam{
+        height:100vh;
+        background-color: black;
+        opacity: .8;
+
+        
+    }
+        section#ourTeam #left{
+            width: 60%;
+            background-color: black;
+            display: inline-block;
+            height: 100%;
+            
+        }
+        section#ourTeam li{
+        
+            display: inline-block;
+            color: white;
+            padding-top: 27px;
+            padding-bottom: 27px;
+            padding-left: 30px;
+            padding-right: 30px;
+            align-content: center;
+            font-size: 30px;
+            margin-top: 80vh;
+        }
+        section#ourTeam li:hover{
+        
+            background: gray;
+        }
+        section#ourTeam #right{
+            width:40%;
+            background-color: black;
+            display: inline-block;
+            float: right;
+            height: 100%
+        }
+        section#ourTeam h2{
+            padding-top:140px;
+            text-align: center;
+            padding-bottom: 0px;
+            font-size: 50px;
+            margin-bottom: 0px;
+            color:#b3231d;
+            font-family:sans-serif;
+        }
+        section#ourTeam p{
+            background: black;
+            padding-top: 20px;
+            padding-left: 120px;
+            margin-right: 20px;
+            margin-top: 0px;
+            font-size: 20px;
+            color:white;
+            line-height: 22px;
+            font-family:serif;
+            text-align: justify;
+            
+            width: 68%;
+        }
+        section#ourTeam img{
+          width: 70%;
+          padding-left: 0%;
+          padding-top: 35%;
+           
+        }
+        
+    section#logIn{
+        height:100vh;
+       
+        
+    }
+            section#logIn #logInBox{
+                display: inline-block;
+                width: 35%;
+                height: 70%;
+                background-color:white;
+                opacity: .85;
+                margin-left: 33%;
+                margin-top: 10%;
+                
+            }
+
+    #ourCompany:target{
+        
+        transition: all .8;
+    }
+    .slick-prev {
+    margin-left: 40px;
+       background-color: black;
+  }
+
+  .slick-next {
+    margin-right: 40px;
+      background-color: black;
+  }
+  .your-class{
+      background-color: transparent;
+  } 
+  
+        
+
+
+    </style>    
+</head>
+<body>
+<div id="wrapper">
+    <nav>
+        <ul>
+            <li><a href="#page1" class="smoothScroll">Home</a></li>
+            <li><a href="#ourCompany" class="smoothScroll">Our Company</a></li>
+            <li><a href="#ourTeam" class="smoothScroll">Joel</a></li>
+            <li><a href="#ourTeam" class="smoothScroll">Safa</a></li>
+            <li><a href="#ourTeam" class="smoothScroll">Laura</a></li>
+            <li><a href="#ourTeam" class="smoothScroll">LeAnn</a></li>
+        </ul>
+    </nav>
+    <section id="page1" name="Home">
+    
+        <h1>Panther Professional <br>Consulting </h1>
+        <h2>Where we are in the business of helping your business.</h2>
+    
+    </section>
+    <section id="ourCompany" name="Our Company">
+        <div id="left">
+            <h2>Our Company</h2>
+            <p>Founded in 1996, Panther Profesional Consulting has helped customers all over the world use information technology to increase buiness productivity. With industry leading experience, and a world class team, our company is dedicated to bringing your business the tools it needs to succeed in the age of information. Our expert staff can provide many services includeing, business process analysis, systems design as well as complete infomation system implimitation. Our core mission has been to bring the latest technology to our customers while giving them the skills they need to maximize their effectiveness. To see how our services can help you grow your business contact us today at (319) 213-5468 or send us an email at <a href="mailto:GrowMyBusinss@PPC.com">GrowMyBusinss@PPC.com</a> </p>
+        </div>
+        <div id="right">
+         
+        <img src="Images/process.jpg">
+        </div>
+    
+    </section>
+    <section id="ourTeam" name="ourTeam">
+        
+        <div id="left">
+            <h2>Joel West</h2>
+            <p> Joel West's carrer started at the University of Northern Iowas were he doubble majored in marketing and management information systems. With a passion for programming he bacame fluent in several programmin languages. He is our company's go to expert for mobile application design and specalizes in software development for Apple products. His experences include working for Banno as an iOS developer and private iPhone application development. He also is CISCO network cirtified and has 4 years of computer repair experience. 
+            </p>
+        </div>
+        <div id="right">
+         
+        <img src="Images/me.png">
+        </div>
+    
+    </section>
+ 
+    <div class="fademe">
+ 
+    </div>
+   
+    
+    
+    
+    
+</div>  
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript" src="smoothscroll.js"></script>
+    
+</body>
+</html>
